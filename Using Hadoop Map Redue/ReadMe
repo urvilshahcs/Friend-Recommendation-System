@@ -1,0 +1,33 @@
+ASSIGNMENT 1
+
+1)	File Name: HW1_1.java 
+Command to run: Hadoop jar HW1_1.jar HW1_1 /socNetData/networkdata output1
+output1: hdfs dfs –cat output1/*
+
+II Recommendations for the users with following user IDs:
+•	924	439,2409,6995,11860,15416,43748,45881
+•	8941	8943,8944,8940
+•	8942	8939,8940,8943,8944
+•	9019	9022,317,9023
+•	9020	9021,9016,9017,9022,317,9023
+•	9021	9020,9016,9017,9022,317,9023
+•	9022	9019,9020,9021,317,9016,9017,9023
+•	9990	13134,13478,13877,34299,34485,34642,37941
+•	9992	9987,9989,35667,9991
+•	9993	9991,13134,13478,13877,34299,34485,34642,37941
+
+2)	File Name: HW1_2.java
+Command to run: Hadoop jar HW1_1.jar HW1_2 <user1> <user2> /socNetData/networkdata output2
+output2: hdfs dfs –cat output2/*
+
+3)	File Name: 
+•	HW1_3.java
+•	MFriend.java
+Command to run: Hadoop jar HW1_1.jar HW1_3 <user1> <user2> /socNetData/networkdata/ <input-directory> /socNetData/userdata/userdata.txt output3
+output3: hdfs dfs –cat output3/*
+
+4)	File Name: reduceSideJoin.java
+Command to run: Hadoop jar HW1_1.jar HW1_4 /socNetData/userdata/userdata.txt /socNetData/networkdata /socNetData/userdata dir dir
+output4: hdfs dfs –cat dir_int2/*
+
+
